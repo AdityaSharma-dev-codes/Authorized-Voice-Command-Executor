@@ -1,6 +1,4 @@
 import whisper
-import sounddevice as sd
-from scipy.io.wavfile import write
 
 model = whisper.load_model("base")
 

@@ -1,7 +1,7 @@
 # Authorized Voice Command Executer
 
 ## Project Overview
-The goal of this project is to develop a personal voice authentication system that allows only the registered user to execute commands on a computer system. The system provides a lightweight, offline biometric security mechanism by integrating voice recognition with system command execution.
+This project is a personal voice authentication system that allows only the registered user to execute commands on a computer system. The system provides a lightweight, offline biometric security mechanism by integrating voice recognition with system command execution.
 
 ## Features
 - **Speaker Verification:** Identify if the speaker matches a registered voice profile.

@@ -48,3 +48,4 @@ def verify_voice():
         print("ACCESS DENIED — Voice Mismatch")
         return False
 
+#verify_voice() debug line
