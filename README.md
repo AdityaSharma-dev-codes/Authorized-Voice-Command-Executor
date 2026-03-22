@@ -66,8 +66,8 @@ The system will:
 4. Execute the corresponding system command.
 
 Currently supported commands (searched in transcription):
-- **"browser"**: Opens the Firefox web browser.
-- **"terminal"**: Opens the `gnome-terminal`.
+- **"browser"**: Opens the `librewolf` web browser.
+- **"terminal"**: Opens the `kitty-terminal`.
 - **"close"**: Kills the currently focused window using `xdotool`.
 - **"shutdown"**: Initiates a system shutdown.
 - **"restart"** or **"reboot"**: Reboots the system.
@@ -86,6 +86,12 @@ Currently supported commands (searched in transcription):
 - `Test_voices/`: Directory for storing temporary recordings for verification.
 
 ## Future Goals
-- Implement continuous authentication.
+- Implement wake word and wake word authentication.
 - Expand the list of supported system commands.
 - Improve security with anti-spoofing techniques.
+
+## Acknowledgements
+This project uses the following open-source libraries:
+- Resemblyzer for speaker verification
+- Whisper for speech recognition
+- sounddevice for recording audio
